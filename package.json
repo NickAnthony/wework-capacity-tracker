@@ -1,0 +1,21 @@
+{
+  "name": "mini_scratchpad",
+  "version": "1.0.0",
+  "description": "// TODO: Implement functionality to add calendar reminders for follow-up tasks with prospects and recruits.",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.267",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.client.sheets": "^4.0.20201031",
+    "gapi": "^0.0.3"
+  }
+}

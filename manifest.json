@@ -1,0 +1,22 @@
+{
+  "name": "WeWork Capacity Tracker",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "A mini prospecting tracker",
+  "homepage_url": "https://github.com/NickAnthony/wework-capacity-tracker",
+  "browser_action": {
+    "default_title": "WeWork Capacity Tracker",
+    "default_popup": "public/popup/popup.html"
+  },
+  "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self';",
+  "oauth2": {
+    "client_id": "TODO",
+    "scopes": []
+  },
+  "permissions": ["identity", "tabs", "activeTab"],
+  "icons": {
+    "16": "public/icons/icon128.png",
+    "48": "public/icons/icon128.png",
+    "128": "public/icons/icon128.png"
+  }
+}
